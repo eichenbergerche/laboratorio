@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas-Charles Henry Eichenberger</title>
+    <style>
+        table {
+            border: 1px solid #ddd;
+          border-collapse: collapse;
+          width: 100%;
+          background-color: blanchedalmond;
+        }
+        
+        th, td {
+          text-align: left;
+          padding: 8px;
+          border: 1px solid rgb(0, 0, 0);
+        }
+        
+        tr:hover {background-color: #aff3a6;}
+        .tarde {
+            background-color: #a6bbf3;
+        }
+        </style>
+</head>
+<body>
+    <!--
+        Tarea: Con tablas en HTML , realizar un horario de dias y horas:
+            Lunes a sabado
+            turno mañana de 8 a 12 hs
+            turno tarde de 16 a 20 hs
+    -->
+<div style="overflow-x:auto;">  
+    <table>
+        <caption>Horario de Clases Turno MAÑANA:</caption>
+        <tr>
+          <td></td>
+          <th scope="col">Lunes</th>
+          <th scope="col">Martes</th>
+          <th scope="col">Miercoles</th>
+          <th scope="col">Jueves</th>
+          <th scope="col">Viernes</th>
+          <th scope="col">Sabado</th>
+        </tr>
+        <tr>
+          <th scope="row">08:00 - 09:00</th>
+          <td>Matematicas</td>
+          <td>Ciencias sociales</td>
+          <td>Educacion Fisica</td>
+          <td>Artes Plasticas</td>
+          <td>Programacion</td>
+          <td>Campamento</td>
+        </tr>
+        <tr>
+            <th scope="row">09:00 - 10:00</th>
+            <td>Matematicas</td>
+            <td>Ciencias sociales</td>
+            <td>Educacion Fisica</td>
+            <td>Artes Plasticas</td>
+            <td>Programacion</td>
+            <td>Campamento</td>
+        </tr>
+        <tr>
+            <th scope="row">10:00 - 10:15</th>
+            <td>Recreo</td>
+            <td>Recreo</td>
+            <td>Recreo</td>
+            <td>Recreo</td>
+            <td>Recreo</td>
+            <td>Recreo</td>
+        </tr>
+        <tr>
+            <th scope="row">10:15 - 11:00</th>
+            <td>Lengua</td>
+            <td>Ciencias Naturales</td>
+            <td>Quimica</td>
+            <td>Taller</td>
+            <td>Finanzas</td>
+            <td>Musica</td>
+        </tr>
+        <tr>
+            <th scope="row">11:00 - 12:00</th>
+            <td>Lengua</td>
+            <td>Ciencias Naturales</td>
+            <td>Quimica</td>
+            <td>Taller</td>
+            <td>Finanzas</td>
+            <td>Musica</td>
+        </tr>        
+      </table>
+      <br>
+      <table class="tarde">
+        <caption>Horario de Clases Turno TARDE:</caption>
+        <tr>
+          <td></td>
+          <th scope="col">Lunes</th>
+          <th scope="col">Martes</th>
+          <th scope="col">Miercoles</th>
+          <th scope="col">Jueves</th>
+          <th scope="col">Viernes</th>
+          <th scope="col">Sabado</th>
+        </tr>
+        <tr>
+          <th scope="row">16:00 - 17:00</th>
+          <td>Diseño</td>
+          <td>Canto</td>
+          <td>Teatro</td>
+          <td>Diseño</td>
+          <td>Programacion</td>
+          <td>Electronica</td>
+        </tr>
+        <tr>
+            <th scope="row">17:00 - 18:00</th>
+            <td>Diseño</td>
+            <td>Canto</td>
+            <td>Teatro</td>
+            <td>Diseño</td>
+            <td>Programacion</td>
+            <td>Electronica</td>
+        </tr>
+        <tr>
+            <th scope="row">18:00 - 18:15</th>
+            <td>Recreo</td>
+            <td>Recreo</td>
+            <td>Recreo</td>
+            <td>Recreo</td>
+            <td>Recreo</td>
+            <td>Recreo</td>
+        </tr>
+        <tr>
+            <th scope="row">18:15 - 19:00</th>
+            <td>Marketing</td>
+            <td>Scrum</td>
+            <td>Logica</td>
+            <td>Redes Sociales</td>
+            <td>Gastronomia</td>
+            <td>Huerta</td>
+        </tr>
+        <tr>
+            <th scope="row">19:00 - 20:00</th>
+            <td>Marketing</td>
+            <td>Scrum</td>
+            <td>Logica</td>
+            <td>Redes sociales</td>
+            <td>Gastronomia</td>
+            <td>Huerta</td>
+        </tr>        
+      </table>
+    </div>
+</body>
+</html>
